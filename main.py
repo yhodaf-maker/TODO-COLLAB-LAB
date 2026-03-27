@@ -6,6 +6,8 @@ add_task("A: clean room")
 add_task("A iteration task")
 add_task("B iteration task")
 add_task("A iteration task")
+add_task("B iteration task")
+
 tasks = list_tasks()
 for t in tasks:
     print(t)

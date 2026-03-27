@@ -1,4 +1,4 @@
-from todo import add_task, list_tasks, remove_last_task
+from todo import add_task, list_tasks, remove_last_task, update_first_task
 
 add_task("Initial task by A")
 add_task("B: buy groceries")
@@ -9,3 +9,5 @@ for t in tasks:
     
 remove_last_task()
 add_task("B: replaced last task")
+
+update_first_task("A: updated first task")

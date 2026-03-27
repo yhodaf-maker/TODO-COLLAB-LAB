@@ -20,3 +20,7 @@ def update_first_task(new_task):
     lines[0] = new_task + "\n"
     with open("tasks.txt", "w") as f:
         f.writelines(lines)
+        
+def count_tasks():
+    with open("tasks.txt", "r") as f:
+        return len(f.readlines())

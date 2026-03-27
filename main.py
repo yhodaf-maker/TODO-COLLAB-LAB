@@ -22,4 +22,8 @@ update_first_task("A: updated first task")
 
 print("Run by A")
 print("Run by B")
+
+
+for task in list_tasks():
+    print(task)
 print("Total tasks:", count_tasks())

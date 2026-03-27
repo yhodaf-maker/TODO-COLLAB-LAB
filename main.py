@@ -11,3 +11,5 @@ remove_last_task()
 add_task("B: replaced last task")
 
 update_first_task("A: updated first task")
+
+print("Run by A")
